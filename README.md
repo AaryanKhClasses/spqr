@@ -2,7 +2,7 @@
 ---
 A Secure Payment QR Code Generating Prototype
 
-Version: 0.3.0
+Version: 0.3.1
 
 <div align="center">
 <img alt="GitHub Issues or Pull Requests" src="https://img.shields.io/github/issues/AaryanKhClasses/spqr?style=for-the-badge&label=Issues&color=red&link=https%3A%2F%2Fgithub.com%2FAaryanKhClasses%2Fspqr%2Fissues">

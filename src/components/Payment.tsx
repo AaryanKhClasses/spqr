@@ -60,6 +60,7 @@ export default function Payment({ PAYMENT_PRICE, RAZORPAY_KEY_ID }: { PAYMENT_PR
             document.body.removeChild(link)
             window.URL.revokeObjectURL(url)
         } catch (error) {
+            console.error("Failed to download QR code: ", error)
             alert('Failed to download image.')
         }
     }

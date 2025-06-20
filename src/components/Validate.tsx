@@ -42,7 +42,7 @@ export default function Validate({ ACCESS_TOKEN }: { ACCESS_TOKEN: string }) {
         function error(err: string) {
             console.warn(`QR Code scan error: ${err}`)
         }
-    }, [])
+    }, [responseModal])
 
     return <>
         <div className="text-center items-center flex flex-col justify-center h-screen">
